@@ -1,3 +1,3 @@
-# temporary-file-manager
+# pekkis/temporary-file-manager
 
-A manager for application's temporary files
+A manager for application's temporary files.
