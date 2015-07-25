@@ -3,6 +3,7 @@
     "description": "Temporary file manager",
     "type": "library",
     "license": "BSD-3-Clause",
+    "keywords": ["filesystem", "file", "temporary"],
     "authors": [
         {
             "name": "Mikko Forsström",
