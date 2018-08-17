@@ -3,9 +3,10 @@
 namespace Pekkis\TemporaryFileManager\Tests;
 
 use Pekkis\TemporaryFileManager\TemporaryFileManager;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Filesystem\Filesystem;
 
-class TemporaryFileManagerTest extends \PHPUnit_Framework_TestCase
+class TemporaryFileManagerTest extends TestCase
 {
     private $root;
 
