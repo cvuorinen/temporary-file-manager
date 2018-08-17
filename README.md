@@ -4,6 +4,10 @@ A manager for application's temporary files. Deletes per-request.
 
 ## Quickstart
 
+## Status
+
+Full maintenance mode. If you want to maintain, holler.
+
 ```php
 <?php
 
