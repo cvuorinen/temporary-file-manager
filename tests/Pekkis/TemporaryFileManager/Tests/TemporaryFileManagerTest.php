@@ -10,12 +10,12 @@ class TemporaryFileManagerTest extends TestCase
 {
     private $root;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->root = realpath(__DIR__ . '/../../../data');
     }
 
-    public function tearDown()
+    public function tearDown(): void
     {
         (new Filesystem())->remove(glob($this->root . '/*'));
     }
